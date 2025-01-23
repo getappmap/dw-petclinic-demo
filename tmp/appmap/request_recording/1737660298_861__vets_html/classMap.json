@@ -1,0 +1,1506 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "success",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:388"
+                              },
+                              {
+                                "name": "captureInvocationOn",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:379"
+                              }
+                            ],
+                            "name": "RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryFactorySupport.java:748"
+                              }
+                            ],
+                            "name": "RepositoryFactorySupport$ImplementationMethodExecutionInterceptor",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "methods",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:468"
+                              },
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:499"
+                              },
+                              {
+                                "name": "from",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:422"
+                              },
+                              {
+                                "name": "empty",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:382"
+                              },
+                              {
+                                "name": "append",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:450"
+                              }
+                            ],
+                            "name": "RepositoryComposition$RepositoryFragments",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getRepositoryInformation",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryFactorySupport.java:493"
+                              }
+                            ],
+                            "name": "RepositoryFactorySupport",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessInvocationResult",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/QueryExecutionResultHandler.java:86"
+                              }
+                            ],
+                            "name": "QueryExecutionResultHandler",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "computeTransactionAttribute",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/TransactionalRepositoryProxyPostProcessor.java:121"
+                              }
+                            ],
+                            "name": "TransactionalRepositoryProxyPostProcessor$RepositoryAnnotationTransactionAttributeSource",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/QueryExecutorMethodInterceptor.java:142"
+                              }
+                            ],
+                            "name": "QueryExecutorMethodInterceptor",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:276"
+                              },
+                              {
+                                "name": "fromMetadata",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:136"
+                              },
+                              {
+                                "name": "getMethod",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:308"
+                              },
+                              {
+                                "name": "append",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:211"
+                              }
+                            ],
+                            "name": "RepositoryComposition",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "of",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/MethodLookup.java:88"
+                              }
+                            ],
+                            "name": "MethodLookup$InvokedMethod",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "notifyListeners",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryInvocationMulticaster.java:75"
+                              }
+                            ],
+                            "name": "RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "forFragmentMethod",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:132"
+                              },
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:158"
+                              }
+                            ],
+                            "name": "RepositoryMethodInvoker",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "create",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:316"
+                              },
+                              {
+                                "name": "shouldAdaptReactiveToSuspended",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:355"
+                              }
+                            ],
+                            "name": "RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getDuration",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/repository/core/support/RepositoryMethodInvocationListener.java:71"
+                              }
+                            ],
+                            "name": "RepositoryMethodInvocationListener$RepositoryMethodInvocation",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "support",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "core",
+                    "type": "package"
+                  }
+                ],
+                "name": "repository",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "currentInvocation",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:121"
+                              },
+                              {
+                                "name": "invoke",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:133"
+                              }
+                            ],
+                            "name": "CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "findAll",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:427"
+                              },
+                              {
+                                "name": "getCountQuery",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:781"
+                              },
+                              {
+                                "name": "findAll",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:448"
+                              },
+                              {
+                                "name": "getQuery",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:714"
+                              },
+                              {
+                                "name": "readPage",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:697"
+                              },
+                              {
+                                "name": "getQuery",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:749"
+                              }
+                            ],
+                            "name": "SimpleJpaRepository",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getRepositoryFragments",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/JpaRepositoryFactory.java:257"
+                              },
+                              {
+                                "name": "getRepositoryFragments",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/JpaRepositoryFactory.java:276"
+                              }
+                            ],
+                            "name": "JpaRepositoryFactory",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "forEach",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/MutableQueryHints.java:53"
+                              }
+                            ],
+                            "name": "MutableQueryHints",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "withFetchGraphs",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:80"
+                              },
+                              {
+                                "name": "of",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:72"
+                              },
+                              {
+                                "name": "forCounts",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:85"
+                              },
+                              {
+                                "name": "forEach",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:90"
+                              }
+                            ],
+                            "name": "DefaultQueryHints",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "releaseTarget",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:301"
+                              }
+                            ],
+                            "name": "CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "support",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "repository",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "getUserType",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/data/jpa/util/HibernateProxyDetector.java:37"
+                          }
+                        ],
+                        "name": "HibernateProxyDetector",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "util",
+                    "type": "package"
+                  }
+                ],
+                "name": "jpa",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:106"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:99"
+                          }
+                        ],
+                        "name": "ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "config",
+                    "type": "package"
+                  }
+                ],
+                "name": "web",
+                "type": "package"
+              }
+            ],
+            "name": "data",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "sync",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "cacheResolver",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "cacheNames",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "keyGenerator",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "unless",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "condition",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "key",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      },
+                      {
+                        "name": "cacheManager",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/Cacheable.java:-1"
+                      }
+                    ],
+                    "name": "Cacheable",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:57"
+                      },
+                      {
+                        "name": "parseCacheAnnotations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:63"
+                      },
+                      {
+                        "name": "parseCacheAnnotations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:70"
+                      }
+                    ],
+                    "name": "SpringCacheAnnotationParser",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "findCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:125"
+                      },
+                      {
+                        "name": "findCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:131"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:114"
+                      },
+                      {
+                        "name": "allowPublicMethodsOnly",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:169"
+                      },
+                      {
+                        "name": "determineCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:145"
+                      }
+                    ],
+                    "name": "AnnotationCacheOperationSource",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "applyDefault",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:258"
+                      }
+                    ],
+                    "name": "SpringCacheAnnotationParser$DefaultCacheConfig",
+                    "type": "class"
+                  }
+                ],
+                "name": "annotation",
+                "type": "package"
+              }
+            ],
+            "name": "cache",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessEntityManager",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/AbstractJpaVendorAdapter.java:165"
+                          }
+                        ],
+                        "name": "AbstractJpaVendorAdapter",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "getJdbcConnection",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:233"
+                          },
+                          {
+                            "name": "prepareFlushMode",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:203"
+                          },
+                          {
+                            "name": "cleanupTransaction",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:224"
+                          },
+                          {
+                            "name": "beginTransaction",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:151"
+                          },
+                          {
+                            "name": "getSession",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:345"
+                          }
+                        ],
+                        "name": "HibernateJpaDialect",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "resetSessionState",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:386"
+                          }
+                        ],
+                        "name": "HibernateJpaDialect$SessionTransactionData",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "vendor",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "doGetTransaction",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:367"
+                      },
+                      {
+                        "name": "doBegin",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:396"
+                      },
+                      {
+                        "name": "doCleanupAfterCompletion",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:620"
+                      },
+                      {
+                        "name": "obtainEntityManagerFactory",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:183"
+                      },
+                      {
+                        "name": "isExistingTransaction",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:391"
+                      },
+                      {
+                        "name": "createEntityManagerForTransaction",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:480"
+                      },
+                      {
+                        "name": "doCommit",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:555"
+                      },
+                      {
+                        "name": "shouldCommitOnGlobalRollbackOnly",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:550"
+                      }
+                    ],
+                    "name": "JpaTransactionManager",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessProperties",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java:384"
+                          }
+                        ],
+                        "name": "PersistenceAnnotationBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "support",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "createNativeEntityManager",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/EntityManagerFactoryInfo.java:-1"
+                      }
+                    ],
+                    "name": "EntityManagerFactoryInfo",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "doGetTransactionalEntityManager",
+                        "type": "function",
+                        "static": true,
+                        "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:200"
+                      },
+                      {
+                        "name": "applyTransactionTimeout",
+                        "type": "function",
+                        "static": true,
+                        "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:339"
+                      },
+                      {
+                        "name": "closeEntityManager",
+                        "type": "function",
+                        "static": true,
+                        "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:421"
+                      }
+                    ],
+                    "name": "EntityManagerFactoryUtils",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "invokeProxyMethod",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:496"
+                      },
+                      {
+                        "name": "createNativeEntityManager",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:592"
+                      },
+                      {
+                        "name": "postProcessEntityManager",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:610"
+                      }
+                    ],
+                    "name": "AbstractEntityManagerFactoryBean",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "invoke",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/SharedEntityManagerCreator.java:224"
+                      }
+                    ],
+                    "name": "SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "setEntityManagerHolder",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/JpaTransactionManager.java:679"
+                      }
+                    ],
+                    "name": "JpaTransactionManager$JpaTransactionObject",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "releaseJdbcConnection",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/DefaultJpaDialect.java:112"
+                      }
+                    ],
+                    "name": "DefaultJpaDialect",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "clear",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/EntityManagerHolder.java:82"
+                      }
+                    ],
+                    "name": "EntityManagerHolder",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "invoke",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:724"
+                      }
+                    ],
+                    "name": "AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+                    "type": "class"
+                  }
+                ],
+                "name": "jpa",
+                "type": "package"
+              }
+            ],
+            "name": "orm",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "parseTransactionAnnotation",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java:71"
+                      },
+                      {
+                        "name": "parseTransactionAnnotation",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java:56"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java:50"
+                      }
+                    ],
+                    "name": "SpringTransactionAnnotationParser",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "findTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:186"
+                      },
+                      {
+                        "name": "findTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:180"
+                      },
+                      {
+                        "name": "determineTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:201"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:169"
+                      },
+                      {
+                        "name": "allowPublicMethodsOnly",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:219"
+                      }
+                    ],
+                    "name": "AnnotationTransactionAttributeSource",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "value",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/Propagation.java:108"
+                      }
+                    ],
+                    "name": "Propagation",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "value",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/Isolation.java:92"
+                      }
+                    ],
+                    "name": "Isolation",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "parseTransactionAnnotation",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/JtaTransactionAnnotationParser.java:52"
+                      }
+                    ],
+                    "name": "JtaTransactionAnnotationParser",
+                    "type": "class"
+                  }
+                ],
+                "name": "annotation",
+                "type": "package"
+              }
+            ],
+            "name": "transaction",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "resolveDeclaredEventType",
+                        "type": "function",
+                        "static": true,
+                        "location": "org/springframework/context/event/GenericApplicationListenerAdapter.java:112"
+                      },
+                      {
+                        "name": "supportsEventType",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/GenericApplicationListenerAdapter.java:70"
+                      },
+                      {
+                        "name": "supportsSourceType",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/GenericApplicationListenerAdapter.java:84"
+                      }
+                    ],
+                    "name": "GenericApplicationListenerAdapter",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "getApplicationListeners",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/AbstractApplicationEventMulticaster.java:192"
+                      },
+                      {
+                        "name": "supportsEvent",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/AbstractApplicationEventMulticaster.java:378"
+                      },
+                      {
+                        "name": "supportsEvent",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/AbstractApplicationEventMulticaster.java:397"
+                      }
+                    ],
+                    "name": "AbstractApplicationEventMulticaster",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "invokeListener",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:168"
+                      },
+                      {
+                        "name": "multicastEvent",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:143"
+                      }
+                    ],
+                    "name": "SimpleApplicationEventMulticaster",
+                    "type": "class"
+                  }
+                ],
+                "name": "event",
+                "type": "package"
+              }
+            ],
+            "name": "context",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:63"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:55"
+                          }
+                        ],
+                        "name": "ErrorPageRegistrarBeanPostProcessor",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:65"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:57"
+                          }
+                        ],
+                        "name": "WebServerFactoryCustomizerBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "server",
+                    "type": "package"
+                  }
+                ],
+                "name": "web",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "apply",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesAutoTimer.java:44"
+                              }
+                            ],
+                            "name": "PropertiesAutoTimer",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "name": "postProcessBeforeInitialization",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/actuate/autoconfigure/metrics/data/MetricsRepositoryMethodInvocationListenerBeanPostProcessor.java:44"
+                                  }
+                                ],
+                                "name": "MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+                                "type": "class"
+                              }
+                            ],
+                            "name": "data",
+                            "type": "package"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "name": "step",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/simple/SimplePropertiesConfigAdapter.java:50"
+                                      },
+                                      {
+                                        "name": "mode",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/simple/SimplePropertiesConfigAdapter.java:55"
+                                      }
+                                    ],
+                                    "name": "SimplePropertiesConfigAdapter",
+                                    "type": "class"
+                                  }
+                                ],
+                                "name": "simple",
+                                "type": "package"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "name": "get",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/properties/PropertiesConfigAdapter.java:53"
+                                      }
+                                    ],
+                                    "name": "PropertiesConfigAdapter",
+                                    "type": "class"
+                                  }
+                                ],
+                                "name": "properties",
+                                "type": "package"
+                              }
+                            ],
+                            "name": "export",
+                            "type": "package"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "accept",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:74"
+                              },
+                              {
+                                "name": "configure",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:85"
+                              },
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:80"
+                              }
+                            ],
+                            "name": "PropertiesMeterFilter",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/MeterRegistryPostProcessor.java:78"
+                              }
+                            ],
+                            "name": "MeterRegistryPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "metrics",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "test",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:53"
+                              },
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:48"
+                              }
+                            ],
+                            "name": "PropertiesObservationFilterPredicate",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/ObservationRegistryPostProcessor.java:68"
+                              }
+                            ],
+                            "name": "ObservationRegistryPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "observation",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.java:128"
+                              }
+                            ],
+                            "name": "HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "health",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "autoconfigure",
+                    "type": "package"
+                  }
+                ],
+                "name": "actuate",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:78"
+                          }
+                        ],
+                        "name": "ConfigurationPropertiesBindingPostProcessor",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "get",
+                            "type": "function",
+                            "static": true,
+                            "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:197"
+                          }
+                        ],
+                        "name": "ConfigurationPropertiesBean",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "get",
+                            "type": "function",
+                            "static": true,
+                            "location": "org/springframework/boot/context/properties/BindMethodAttribute.java:49"
+                          }
+                        ],
+                        "name": "BindMethodAttribute",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "properties",
+                    "type": "package"
+                  }
+                ],
+                "name": "context",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "supportsEventType",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/logging/ConditionEvaluationReportLoggingListener.java:118"
+                          }
+                        ],
+                        "name": "ConditionEvaluationReportLoggingListener$ConditionEvaluationReportListener",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "logging",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/jdbc/JdbcConnectionDetailsBeanPostProcessor.java:52"
+                          }
+                        ],
+                        "name": "JdbcConnectionDetailsBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "jdbc",
+                    "type": "package"
+                  }
+                ],
+                "name": "autoconfigure",
+                "type": "package"
+              }
+            ],
+            "name": "boot",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "findAll",
+                            "type": "function",
+                            "static": false,
+                            "location": "src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:-1"
+                          }
+                        ],
+                        "name": "VetRepository",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "showVetList",
+                            "type": "function",
+                            "static": false,
+                            "location": "src/main/java/org/springframework/samples/petclinic/vet/VetController.java:48"
+                          }
+                        ],
+                        "name": "VetController",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "vet",
+                    "type": "package"
+                  }
+                ],
+                "name": "petclinic",
+                "type": "package"
+              }
+            ],
+            "name": "samples",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "isAspect",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java:89"
+                          }
+                        ],
+                        "name": "AbstractAspectJAdvisorFactory",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "isInfrastructureClass",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java:110"
+                          },
+                          {
+                            "name": "findCandidateAdvisors",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java:92"
+                          }
+                        ],
+                        "name": "AnnotationAwareAspectJAutoProxyCreator",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "buildAspectJAdvisors",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java:90"
+                          }
+                        ],
+                        "name": "BeanFactoryAspectJAdvisorsBuilder",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "annotation",
+                    "type": "package"
+                  }
+                ],
+                "name": "aspectj",
+                "type": "package"
+              }
+            ],
+            "name": "aop",
+            "type": "package"
+          }
+        ],
+        "name": "springframework",
+        "type": "package"
+      }
+    ],
+    "name": "org",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /vets.html"
+      }
+    ]
+  },
+  {
+    "type": "database",
+    "name": "Database",
+    "children": [
+      {
+        "type": "query",
+        "name": "select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0 offset ? rows fetch first ? rows only"
+      },
+      {
+        "type": "query",
+        "name": "select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?"
+      },
+      {
+        "type": "query",
+        "name": "select count(v1_0.id) from vets v1_0"
+      }
+    ]
+  }
+]

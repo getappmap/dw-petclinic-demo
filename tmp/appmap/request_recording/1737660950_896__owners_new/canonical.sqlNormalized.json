@@ -1,0 +1,3 @@
+[
+  "insert into owners (address,city,first_name,last_name,telephone,id) values (?,?,?,?,?,default)"
+]

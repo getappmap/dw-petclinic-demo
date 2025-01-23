@@ -1,0 +1,18 @@
+[
+  "applicationContext",
+  "bean",
+  "beanClass",
+  "beanDefinitionRegistry",
+  "beanName",
+  "clazz",
+  "element",
+  "event",
+  "eventType",
+  "listener",
+  "method",
+  "ownerId",
+  "provider",
+  "pvs",
+  "targetClass",
+  "type"
+]

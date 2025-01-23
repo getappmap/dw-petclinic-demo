@@ -1,0 +1,98 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/aop/aspectj/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/health"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics/data"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/observation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/jdbc"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/web/servlet/error"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/context/properties"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/web/server"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/cache/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/context/event"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/data/web/config"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/orm/jpa/support"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/samples/petclinic/system"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/transaction/annotation"
+  },
+  {
+    "caller": "org/springframework/boot/actuate/autoconfigure/metrics/export/simple",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics/export/properties"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/template",
+    "callee": "org/springframework/boot/autoconfigure/mustache"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/template",
+    "callee": "org/springframework/boot/autoconfigure/thymeleaf"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/template",
+    "callee": "org/springframework/boot/autoconfigure/web/servlet"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/template",
+    "callee": "org/springframework/boot/context/properties/source"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/thymeleaf",
+    "callee": "org/springframework/boot/context/properties/source"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/web/servlet/error",
+    "callee": "org/springframework/boot/autoconfigure/template"
+  },
+  {
+    "caller": "org/springframework/boot/autoconfigure/web/servlet/error",
+    "callee": "org/springframework/boot/autoconfigure/web"
+  },
+  {
+    "caller": "org/springframework/boot/context/properties/source",
+    "callee": "org/springframework/boot/actuate/autoconfigure/web/server"
+  }
+]

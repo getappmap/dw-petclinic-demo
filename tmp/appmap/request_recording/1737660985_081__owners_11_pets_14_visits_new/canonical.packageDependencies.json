@@ -1,0 +1,90 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/aop/aspectj/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/health"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics/data"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/observation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/jdbc"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/validation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/context/properties"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/web/server"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/cache/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/context/event"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/data/web/config"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/orm/jpa/support"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/samples/petclinic/owner"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/transaction/annotation"
+  },
+  {
+    "caller": "org/springframework/data/jpa/repository/support",
+    "callee": "org/springframework/data/repository/core/support"
+  },
+  {
+    "caller": "org/springframework/data/jpa/repository/support",
+    "callee": "org/springframework/orm/jpa"
+  },
+  {
+    "caller": "org/springframework/data/repository/core/support",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics"
+  },
+  {
+    "caller": "org/springframework/data/repository/core/support",
+    "callee": "org/springframework/data/jpa/repository/support"
+  },
+  {
+    "caller": "org/springframework/orm/jpa",
+    "callee": "Database"
+  },
+  {
+    "caller": "org/springframework/orm/jpa",
+    "callee": "org/springframework/orm/jpa/vendor"
+  },
+  {
+    "caller": "org/springframework/samples/petclinic/owner",
+    "callee": "org/springframework/data/jpa/repository/support"
+  }
+]

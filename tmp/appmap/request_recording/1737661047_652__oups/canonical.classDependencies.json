@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /error",
+    "callee": "org/springframework"
+  },
+  {
+    "caller": "GET /oups",
+    "callee": "org/springframework"
+  }
+]

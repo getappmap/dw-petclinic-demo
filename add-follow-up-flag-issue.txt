@@ -1,0 +1,20 @@
+As a veterinarian, I want to mark a pet’s visit with a ‘follow-up required’ flag and add a short note, so I can track which pets need further attention after a visit.
+
+Requirements:
+
+A checkbox or toggle for Follow-Up Required on the visit form.
+The default behavior of the checkbox should be unchecked.
+If the checkbox is unchecked, the follow-up notes should not persist.
+A text area for Follow-Up Notes (optional unless the flag is checked).
+The character limit for the follow-up notes should be 500 characters.
+The follow-up notes should not support any special formatting.
+If 'Follow-Up Required' is checked but there are no notes, the user should get an alert asking them to add a note describing why the follow-up is needed.
+The follow-up required flag should have a visual indication on the visit record.
+The follow-up notes should be displayed in full on the visit record.
+There should not be any notifications or alerts related to the follow-up visits.
+Any logged-in user can mark a visit with 'Follow-Up Required'.
+This flag will only apply to new visits going forward.
+UAT testing is not required.
+There is no special documentation required; training will be conducted offline.
+The implementation will require a database schema change.
+The change should be completed with no perceptible impact on performance.

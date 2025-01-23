@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /vets.html",
+    "parameters": "(page)",
+    "status": 200
+  }
+]

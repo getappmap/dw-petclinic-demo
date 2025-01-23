@@ -1,0 +1,4631 @@
+{
+  "events": [
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate",
+      "event": "call",
+      "id": 1,
+      "lineno": 53,
+      "method_id": "test",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1940262946,
+          "value": "http.server.requests"
+        },
+        {
+          "class": "org.springframework.http.server.observation.ServerRequestObservationContext",
+          "kind": "req",
+          "name": "context",
+          "object_id": 1582124031,
+          "value": "name='null', contextualName='null', error='null', lowCardinalityKeyValues=[], highCardinalityKeyValues=[], map=[], parentObservation=null"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate",
+        "object_id": 2110778463,
+        "value": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate@7dcfec5f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000086,
+      "event": "return",
+      "id": 2,
+      "parent_id": 1,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 1149747394,
+        "value": "true"
+      },
+      "thread_id": 41
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "navigate",
+          "referer": "http://localhost:8080/vets.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en",
+          "sec-fetch-user": "?1",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+          "sec-gpc": "1",
+          "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Brave\";v=\"132\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "host": "localhost:8080",
+          "upgrade-insecure-requests": "1",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "document"
+        },
+        "normalized_path_info": "/vets.html",
+        "path_info": "/vets.html",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 3,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "page",
+          "object_id": 97349337,
+          "value": "2"
+        }
+      ],
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.samples.petclinic.vet.VetController",
+      "event": "call",
+      "id": 4,
+      "lineno": 48,
+      "method_id": "showVetList",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "page",
+          "object_id": 1681793417,
+          "value": "2"
+        },
+        {
+          "class": "org.springframework.validation.support.BindingAwareModelMap",
+          "kind": "req",
+          "name": "model",
+          "object_id": 527450564,
+          "value": "{}"
+        }
+      ],
+      "path": "src/main/java/org/springframework/samples/petclinic/vet/VetController.java",
+      "receiver": {
+        "class": "org.springframework.samples.petclinic.vet.VetController",
+        "object_id": 1971015629,
+        "value": "org.springframework.samples.petclinic.vet.VetController@757b4fcd"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.samples.petclinic.vet.VetRepository",
+      "event": "call",
+      "id": 5,
+      "lineno": -1,
+      "method_id": "findAll",
+      "parameters": [
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "p0",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        }
+      ],
+      "path": "src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java",
+      "receiver": {
+        "class": "jdk.proxy3.$Proxy232",
+        "object_id": 1500270918,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.samples.petclinic.vet.VetRepository",
+      "event": "call",
+      "id": 6,
+      "lineno": -1,
+      "method_id": "findAll",
+      "parameters": [
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "p0",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        }
+      ],
+      "path": "src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java",
+      "receiver": {
+        "class": "jdk.proxy3.$Proxy232",
+        "object_id": 864187399,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+      "event": "call",
+      "id": 7,
+      "lineno": 133,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+          "kind": "req",
+          "name": "invocation",
+          "object_id": 782621175,
+          "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+        "object_id": 1282929404,
+        "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor@4c77f2fc"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 8,
+      "lineno": 367,
+      "method_id": "doGetTransaction",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 9,
+      "lineno": 183,
+      "method_id": "obtainEntityManagerFactory",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000091,
+      "event": "return",
+      "id": 10,
+      "parent_id": 9,
+      "return_value": {
+        "class": "jdk.proxy3.$Proxy216",
+        "object_id": 200732469,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 11,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1724239742,
+          "value": "public native int java.lang.Object.hashCode()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000142,
+      "event": "return",
+      "id": 12,
+      "parent_id": 11,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 1648143721,
+        "value": "200732469"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000922,
+      "event": "return",
+      "id": 13,
+      "parent_id": 8,
+      "return_value": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+        "object_id": 2136981131,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject@7f5fbe8b"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 14,
+      "lineno": 391,
+      "method_id": "isExistingTransaction",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+          "kind": "req",
+          "name": "transaction",
+          "object_id": 2136981131,
+          "value": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject@7f5fbe8b"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000011,
+      "event": "return",
+      "id": 15,
+      "parent_id": 14,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 883735648,
+        "value": "false"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 16,
+      "lineno": 396,
+      "method_id": "doBegin",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+          "kind": "req",
+          "name": "transaction",
+          "object_id": 2136981131,
+          "value": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject@7f5fbe8b"
+        },
+        {
+          "class": "org.springframework.transaction.interceptor.TransactionAspectSupport$1",
+          "kind": "req",
+          "name": "definition",
+          "object_id": 2122473000,
+          "value": "PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 17,
+      "lineno": 480,
+      "method_id": "createEntityManagerForTransaction",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 18,
+      "lineno": 183,
+      "method_id": "obtainEntityManagerFactory",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000046,
+      "event": "return",
+      "id": 19,
+      "parent_id": 18,
+      "return_value": {
+        "class": "jdk.proxy3.$Proxy216",
+        "object_id": 200732469,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.EntityManagerFactoryInfo",
+      "event": "call",
+      "id": 20,
+      "lineno": -1,
+      "method_id": "createNativeEntityManager",
+      "parameters": [
+        {
+          "class": "java.util.HashMap",
+          "kind": "req",
+          "name": "p0",
+          "object_id": 778086784,
+          "value": "{}"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/EntityManagerFactoryInfo.java",
+      "receiver": {
+        "class": "jdk.proxy3.$Proxy216",
+        "object_id": 200732469,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 21,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1905183828,
+          "value": "public abstract jakarta.persistence.EntityManager org.springframework.orm.jpa.EntityManagerFactoryInfo.createNativeEntityManager(java.util.Map)"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 2129152622,
+          "value": "[Ljava.lang.Object;@7ee84a6e"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "event": "call",
+      "id": 22,
+      "lineno": 496,
+      "method_id": "invokeProxyMethod",
+      "parameters": [
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1905183828,
+          "value": "public abstract jakarta.persistence.EntityManager org.springframework.orm.jpa.EntityManagerFactoryInfo.createNativeEntityManager(java.util.Map)"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 2129152622,
+          "value": "[Ljava.lang.Object;@7ee84a6e"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "object_id": 1229569224,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "event": "call",
+      "id": 23,
+      "lineno": 592,
+      "method_id": "createNativeEntityManager",
+      "parameters": [
+        {
+          "class": "java.util.HashMap",
+          "kind": "req",
+          "name": "properties",
+          "object_id": 778086784,
+          "value": "{}"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "object_id": 1229569224,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "event": "call",
+      "id": 24,
+      "lineno": 610,
+      "method_id": "postProcessEntityManager",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "rawEntityManager",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "object_id": 1229569224,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter",
+      "event": "call",
+      "id": 25,
+      "lineno": 165,
+      "method_id": "postProcessEntityManager",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "em",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/AbstractJpaVendorAdapter.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter",
+        "object_id": 347770167,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter@14ba8d37"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000048,
+      "event": "return",
+      "id": 26,
+      "parent_id": 25,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000162,
+      "event": "return",
+      "id": 27,
+      "parent_id": 24,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000042,
+      "event": "return",
+      "id": 28,
+      "parent_id": 23,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000693,
+      "event": "return",
+      "id": 29,
+      "parent_id": 22,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000871,
+      "event": "return",
+      "id": 30,
+      "parent_id": 21,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0001029,
+      "event": "return",
+      "id": 31,
+      "parent_id": 20,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0001435,
+      "event": "return",
+      "id": 32,
+      "parent_id": 17,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+      "event": "call",
+      "id": 33,
+      "lineno": 679,
+      "method_id": "setEntityManagerHolder",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.EntityManagerHolder",
+          "kind": "req",
+          "name": "entityManagerHolder",
+          "object_id": 2064754037,
+          "value": "org.springframework.orm.jpa.EntityManagerHolder@7b11a575"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "newEntityManagerHolder",
+          "object_id": 1149747394,
+          "value": "true"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+        "object_id": 2136981131,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject@7f5fbe8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000033,
+      "event": "return",
+      "id": 34,
+      "parent_id": 33,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 35,
+      "lineno": 151,
+      "method_id": "beginTransaction",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "entityManager",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        },
+        {
+          "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition",
+          "kind": "req",
+          "name": "definition",
+          "object_id": 395237153,
+          "value": "PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 36,
+      "lineno": 345,
+      "method_id": "getSession",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "entityManager",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000006,
+      "event": "return",
+      "id": 37,
+      "parent_id": 36,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 38,
+      "lineno": 203,
+      "method_id": "prepareFlushMode",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "session",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "readOnly",
+          "object_id": 1149747394,
+          "value": "true"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000042,
+      "event": "return",
+      "id": 39,
+      "parent_id": 38,
+      "return_value": {
+        "class": "org.hibernate.FlushMode",
+        "object_id": 2128587415,
+        "value": "AUTO"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000394,
+      "event": "return",
+      "id": 40,
+      "parent_id": 35,
+      "return_value": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+        "object_id": 730420356,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData@2b895484"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 41,
+      "lineno": 233,
+      "method_id": "getJdbcConnection",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "entityManager",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "readOnly",
+          "object_id": 1149747394,
+          "value": "true"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 42,
+      "lineno": 345,
+      "method_id": "getSession",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "entityManager",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000049,
+      "event": "return",
+      "id": 43,
+      "parent_id": 42,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000364,
+      "event": "return",
+      "id": 44,
+      "parent_id": 41,
+      "return_value": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle",
+        "object_id": 355885013,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@15365fd5"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 45,
+      "lineno": 183,
+      "method_id": "obtainEntityManagerFactory",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000049,
+      "event": "return",
+      "id": 46,
+      "parent_id": 45,
+      "return_value": {
+        "class": "jdk.proxy3.$Proxy216",
+        "object_id": 200732469,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 47,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1724239742,
+          "value": "public native int java.lang.Object.hashCode()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000064,
+      "event": "return",
+      "id": 48,
+      "parent_id": 47,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 1668966923,
+        "value": "200732469"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0003048,
+      "event": "return",
+      "id": 49,
+      "parent_id": 16,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor",
+      "event": "call",
+      "id": 50,
+      "lineno": 142,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+          "kind": "req",
+          "name": "invocation",
+          "object_id": 782621175,
+          "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/QueryExecutorMethodInterceptor.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor",
+        "object_id": 1156253561,
+        "value": "org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor@44eb0779"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor",
+      "event": "call",
+      "id": 51,
+      "lineno": 748,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+          "kind": "req",
+          "name": "invocation",
+          "object_id": 782621175,
+          "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryFactorySupport.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor",
+        "object_id": 891451411,
+        "value": "org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor@35227813"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryComposition",
+      "event": "call",
+      "id": 52,
+      "lineno": 276,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+          "kind": "req",
+          "name": "listener",
+          "object_id": 1396148717,
+          "value": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster@533789ed"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 2006055029,
+          "value": "public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 36474522,
+          "value": "[Ljava.lang.Object;@22c8e9a"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryComposition.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryComposition",
+        "object_id": 552752364,
+        "value": "org.springframework.data.repository.core.support.RepositoryComposition@30c5521"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryComposition",
+      "event": "call",
+      "id": 53,
+      "lineno": 308,
+      "method_id": "getMethod",
+      "parameters": [
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 2006055029,
+          "value": "public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryComposition.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryComposition",
+        "object_id": 552752364,
+        "value": "org.springframework.data.repository.core.support.RepositoryComposition@30c5521"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000071,
+      "event": "return",
+      "id": 54,
+      "parent_id": 53,
+      "return_value": {
+        "class": "java.lang.reflect.Method",
+        "object_id": 1205573814,
+        "value": "public org.springframework.data.domain.Page org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(org.springframework.data.domain.Pageable)"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments",
+      "event": "call",
+      "id": 55,
+      "lineno": 499,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "java.lang.Class",
+          "kind": "req",
+          "name": "repositoryInterface",
+          "object_id": 1349502970,
+          "value": "interface org.springframework.samples.petclinic.vet.VetRepository"
+        },
+        {
+          "class": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+          "kind": "req",
+          "name": "listener",
+          "object_id": 1396148717,
+          "value": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster@533789ed"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "invokedMethod",
+          "object_id": 2006055029,
+          "value": "public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "methodToCall",
+          "object_id": 1205573814,
+          "value": "public org.springframework.data.domain.Page org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(org.springframework.data.domain.Pageable)"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 36474522,
+          "value": "[Ljava.lang.Object;@22c8e9a"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryComposition.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments",
+        "object_id": 764056271,
+        "value": "[ImplementedRepositoryFragment SimpleJpaRepository]"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker",
+      "event": "call",
+      "id": 56,
+      "lineno": 158,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "java.lang.Class",
+          "kind": "req",
+          "name": "repositoryInterface",
+          "object_id": 1349502970,
+          "value": "interface org.springframework.samples.petclinic.vet.VetRepository"
+        },
+        {
+          "class": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+          "kind": "req",
+          "name": "multicaster",
+          "object_id": 1396148717,
+          "value": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster@533789ed"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 36474522,
+          "value": "[Ljava.lang.Object;@22c8e9a"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker",
+        "object_id": 1105501628,
+        "value": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker@41e49dbc"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+      "event": "call",
+      "id": 57,
+      "lineno": 379,
+      "method_id": "captureInvocationOn",
+      "parameters": [
+        {
+          "class": "java.lang.Class",
+          "kind": "req",
+          "name": "repositoryInterface",
+          "object_id": 1349502970,
+          "value": "interface org.springframework.samples.petclinic.vet.VetRepository"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000052,
+      "event": "return",
+      "id": 58,
+      "parent_id": 57,
+      "return_value": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+        "object_id": 1675679535,
+        "value": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor@63e0d72f"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation",
+      "event": "call",
+      "id": 59,
+      "lineno": 355,
+      "method_id": "shouldAdaptReactiveToSuspended",
+      "path": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation",
+        "object_id": 1607876856,
+        "value": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation@5fd640f8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000033,
+      "event": "return",
+      "id": 60,
+      "parent_id": 59,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 883735648,
+        "value": "false"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+      "event": "call",
+      "id": 61,
+      "lineno": 427,
+      "method_id": "findAll",
+      "parameters": [
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "pageable",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+        "object_id": 1070073393,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+      "event": "call",
+      "id": 62,
+      "lineno": 448,
+      "method_id": "findAll",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.domain.Specification",
+          "kind": "req",
+          "name": "spec",
+          "object_id": 0
+        },
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "pageable",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+        "object_id": 1070073393,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+      "event": "call",
+      "id": 63,
+      "lineno": 714,
+      "method_id": "getQuery",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.domain.Specification",
+          "kind": "req",
+          "name": "spec",
+          "object_id": 0
+        },
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "pageable",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+        "object_id": 1070073393,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+      "event": "call",
+      "id": 64,
+      "lineno": 749,
+      "method_id": "getQuery",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.domain.Specification",
+          "kind": "req",
+          "name": "spec",
+          "object_id": 0
+        },
+        {
+          "class": "java.lang.Class",
+          "kind": "req",
+          "name": "domainClass",
+          "object_id": 1070285127,
+          "value": "class org.springframework.samples.petclinic.vet.Vet"
+        },
+        {
+          "class": "org.springframework.data.domain.Sort",
+          "kind": "req",
+          "name": "sort",
+          "object_id": 387149625,
+          "value": "UNSORTED"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+        "object_id": 1070073393,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+      "event": "call",
+      "id": 65,
+      "lineno": 224,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy223",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 254113431,
+          "value": "Shared EntityManager proxy for target factory [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8]"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 134602205,
+          "value": "public abstract org.hibernate.query.criteria.HibernateCriteriaBuilder org.hibernate.SharedSessionContract.getCriteriaBuilder()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/SharedEntityManagerCreator.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+        "object_id": 1673882043,
+        "value": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler@63c569bb"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 66,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1547103525,
+          "value": "public abstract org.hibernate.query.criteria.HibernateCriteriaBuilder org.hibernate.SessionFactory.getCriteriaBuilder()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "event": "call",
+      "id": 67,
+      "lineno": 496,
+      "method_id": "invokeProxyMethod",
+      "parameters": [
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1547103525,
+          "value": "public abstract org.hibernate.query.criteria.HibernateCriteriaBuilder org.hibernate.SessionFactory.getCriteriaBuilder()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "object_id": 1229569224,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000138,
+      "event": "return",
+      "id": 68,
+      "parent_id": 67,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder",
+        "object_id": 979876140,
+        "value": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder@3a67b92c"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000375,
+      "event": "return",
+      "id": 69,
+      "parent_id": 66,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder",
+        "object_id": 979876140,
+        "value": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder@3a67b92c"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000534,
+      "event": "return",
+      "id": 70,
+      "parent_id": 65,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder",
+        "object_id": 979876140,
+        "value": "org.hibernate.query.sqm.internal.SqmCriteriaNodeBuilder@3a67b92c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+      "event": "call",
+      "id": 71,
+      "lineno": 224,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy223",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 254113431,
+          "value": "Shared EntityManager proxy for target factory [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8]"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 2049916067,
+          "value": "public abstract org.hibernate.query.Query org.hibernate.Session.createQuery(jakarta.persistence.criteria.CriteriaQuery)"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 1150284913,
+          "value": "[Ljava.lang.Object;@448ff471"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/SharedEntityManagerCreator.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+        "object_id": 1673882043,
+        "value": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler@63c569bb"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.EntityManagerFactoryUtils",
+      "event": "call",
+      "id": 72,
+      "lineno": 200,
+      "method_id": "doGetTransactionalEntityManager",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "emf",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.util.Map",
+          "kind": "req",
+          "name": "properties",
+          "object_id": 0
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "synchronizedWithTransaction",
+          "object_id": 1149747394,
+          "value": "true"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 73,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1724239742,
+          "value": "public native int java.lang.Object.hashCode()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000062,
+      "event": "return",
+      "id": 74,
+      "parent_id": 73,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 1947591897,
+        "value": "200732469"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000337,
+      "event": "return",
+      "id": 75,
+      "parent_id": 72,
+      "return_value": {
+        "class": "org.hibernate.internal.SessionImpl",
+        "object_id": 2033772351,
+        "value": "SessionImpl(2033772351<open>)"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.EntityManagerFactoryUtils",
+      "event": "call",
+      "id": 76,
+      "lineno": 339,
+      "method_id": "applyTransactionTimeout",
+      "parameters": [
+        {
+          "class": "org.hibernate.query.sqm.internal.QuerySqmImpl",
+          "kind": "req",
+          "name": "query",
+          "object_id": 1525324198,
+          "value": "org.hibernate.query.sqm.internal.QuerySqmImpl@5aea99a6"
+        },
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "emf",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 77,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1724239742,
+          "value": "public native int java.lang.Object.hashCode()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000055,
+      "event": "return",
+      "id": 78,
+      "parent_id": 77,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 359669609,
+        "value": "200732469"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000247,
+      "event": "return",
+      "id": 79,
+      "parent_id": 76,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000925,
+      "event": "return",
+      "id": 80,
+      "parent_id": 71,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.QuerySqmImpl",
+        "object_id": 1525324198,
+        "value": "org.hibernate.query.sqm.internal.QuerySqmImpl@5aea99a6"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+      "event": "call",
+      "id": 81,
+      "lineno": 121,
+      "method_id": "currentInvocation",
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000061,
+      "event": "return",
+      "id": 82,
+      "parent_id": 81,
+      "return_value": {
+        "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+        "object_id": 782621175,
+        "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+      "event": "call",
+      "id": 83,
+      "lineno": 301,
+      "method_id": "releaseTarget",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata",
+          "kind": "req",
+          "name": "target",
+          "object_id": 252956639,
+          "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata@f13cfdf"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+        "object_id": 1519695375,
+        "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@5a94b60f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000095,
+      "event": "return",
+      "id": 84,
+      "parent_id": 83,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+      "event": "call",
+      "id": 85,
+      "lineno": 72,
+      "method_id": "of",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation",
+          "kind": "req",
+          "name": "information",
+          "object_id": 1119374156,
+          "value": "org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation@42b84b4c"
+        },
+        {
+          "class": "jdk.proxy3.$Proxy225",
+          "kind": "req",
+          "name": "metadata",
+          "object_id": 1770925592,
+          "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata@f13cfdf"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000026,
+      "event": "return",
+      "id": 86,
+      "parent_id": 85,
+      "return_value": {
+        "class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+        "object_id": 1670196,
+        "value": "org.springframework.data.jpa.repository.support.DefaultQueryHints@197c34"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+      "event": "call",
+      "id": 87,
+      "lineno": 80,
+      "method_id": "withFetchGraphs",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy223",
+          "kind": "req",
+          "name": "em",
+          "object_id": 254113431,
+          "value": "Shared EntityManager proxy for target factory [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8]"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+        "object_id": 1670196,
+        "value": "org.springframework.data.jpa.repository.support.DefaultQueryHints@197c34"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000075,
+      "event": "return",
+      "id": 88,
+      "parent_id": 87,
+      "return_value": {
+        "class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+        "object_id": 352825353,
+        "value": "org.springframework.data.jpa.repository.support.DefaultQueryHints@1507b009"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+      "event": "call",
+      "id": 89,
+      "lineno": 90,
+      "method_id": "forEach",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository$$Lambda$2000/0x0000000135e49690",
+          "kind": "req",
+          "name": "action",
+          "object_id": 280604419,
+          "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository$$Lambda$2000/0x0000000135e49690@10b9af03"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.DefaultQueryHints",
+        "object_id": 352825353,
+        "value": "org.springframework.data.jpa.repository.support.DefaultQueryHints@1507b009"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+      "event": "call",
+      "id": 90,
+      "lineno": 121,
+      "method_id": "currentInvocation",
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000073,
+      "event": "return",
+      "id": 91,
+      "parent_id": 90,
+      "return_value": {
+        "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+        "object_id": 782621175,
+        "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+      "event": "call",
+      "id": 92,
+      "lineno": 301,
+      "method_id": "releaseTarget",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata",
+          "kind": "req",
+          "name": "target",
+          "object_id": 252956639,
+          "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata@f13cfdf"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+        "object_id": 1519695375,
+        "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@5a94b60f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000093,
+      "event": "return",
+      "id": 93,
+      "parent_id": 92,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+      "event": "call",
+      "id": 94,
+      "lineno": 121,
+      "method_id": "currentInvocation",
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000151,
+      "event": "return",
+      "id": 95,
+      "parent_id": 94,
+      "return_value": {
+        "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+        "object_id": 782621175,
+        "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+      "event": "call",
+      "id": 96,
+      "lineno": 301,
+      "method_id": "releaseTarget",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata",
+          "kind": "req",
+          "name": "target",
+          "object_id": 252956639,
+          "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata@f13cfdf"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+        "object_id": 1519695375,
+        "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@5a94b60f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000089,
+      "event": "return",
+      "id": 97,
+      "parent_id": 96,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+      "event": "call",
+      "id": 98,
+      "lineno": 53,
+      "method_id": "forEach",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.QueryHints$$Lambda$2004/0x0000000135e5c248",
+          "kind": "req",
+          "name": "action",
+          "object_id": 1185610609,
+          "value": "org.springframework.data.jpa.repository.support.QueryHints$$Lambda$2004/0x0000000135e5c248@46aafb71"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/MutableQueryHints.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+        "object_id": 2029163709,
+        "value": "org.springframework.data.jpa.repository.support.MutableQueryHints@78f294bd"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000046,
+      "event": "return",
+      "id": 99,
+      "parent_id": 98,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+      "event": "call",
+      "id": 100,
+      "lineno": 53,
+      "method_id": "forEach",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.QueryHints$$Lambda$2004/0x0000000135e5c248",
+          "kind": "req",
+          "name": "action",
+          "object_id": 1975536747,
+          "value": "org.springframework.data.jpa.repository.support.QueryHints$$Lambda$2004/0x0000000135e5c248@75c04c6b"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/MutableQueryHints.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+        "object_id": 360393469,
+        "value": "org.springframework.data.jpa.repository.support.MutableQueryHints@157b2afd"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000106,
+      "event": "return",
+      "id": 101,
+      "parent_id": 100,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+      "event": "call",
+      "id": 102,
+      "lineno": 53,
+      "method_id": "forEach",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository$$Lambda$2000/0x0000000135e49690",
+          "kind": "req",
+          "name": "action",
+          "object_id": 280604419,
+          "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository$$Lambda$2000/0x0000000135e49690@10b9af03"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/MutableQueryHints.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.MutableQueryHints",
+        "object_id": 1269680705,
+        "value": "org.springframework.data.jpa.repository.support.MutableQueryHints@4badca41"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000066,
+      "event": "return",
+      "id": 103,
+      "parent_id": 102,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000241,
+      "event": "return",
+      "id": 104,
+      "parent_id": 89,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+      "event": "call",
+      "id": 105,
+      "lineno": 121,
+      "method_id": "currentInvocation",
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000054,
+      "event": "return",
+      "id": 106,
+      "parent_id": 105,
+      "return_value": {
+        "class": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+        "object_id": 782621175,
+        "value": "ReflectiveMethodInvocation: public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException; target is of class [org.springframework.data.jpa.repository.support.SimpleJpaRepository]"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+      "event": "call",
+      "id": 107,
+      "lineno": 301,
+      "method_id": "releaseTarget",
+      "parameters": [
+        {
+          "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata",
+          "kind": "req",
+          "name": "target",
+          "object_id": 252956639,
+          "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$DefaultCrudMethodMetadata@f13cfdf"
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+        "object_id": 1519695375,
+        "value": "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@5a94b60f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000206,
+      "event": "return",
+      "id": 108,
+      "parent_id": 107,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0006243,
+      "event": "return",
+      "id": 109,
+      "parent_id": 64,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.QuerySqmImpl",
+        "object_id": 1525324198,
+        "value": "org.hibernate.query.sqm.internal.QuerySqmImpl@5aea99a6"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0006351,
+      "event": "return",
+      "id": 110,
+      "parent_id": 63,
+      "return_value": {
+        "class": "org.hibernate.query.sqm.internal.QuerySqmImpl",
+        "object_id": 1525324198,
+        "value": "org.hibernate.query.sqm.internal.QuerySqmImpl@5aea99a6"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+      "event": "call",
+      "id": 111,
+      "lineno": 697,
+      "method_id": "readPage",
+      "parameters": [
+        {
+          "class": "org.hibernate.query.sqm.internal.QuerySqmImpl",
+          "kind": "req",
+          "name": "query",
+          "object_id": 1525324198,
+          "value": "org.hibernate.query.sqm.internal.QuerySqmImpl@5aea99a6"
+        },
+        {
+          "class": "java.lang.Class",
+          "kind": "req",
+          "name": "domainClass",
+          "object_id": 1070285127,
+          "value": "class org.springframework.samples.petclinic.vet.Vet"
+        },
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "pageable",
+          "object_id": 436431867,
+          "value": "Page request [number: 1, size 5, sort: UNSORTED]"
+        },
+        {
+          "class": "org.springframework.data.jpa.domain.Specification",
+          "kind": "req",
+          "name": "spec",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java",
+      "receiver": {
+        "class": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+        "object_id": 1070073393,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@3fc80631"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "event": "call",
+      "id": 112,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0 offset ? rows fetch first ? rows only"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000177,
+      "event": "return",
+      "id": 113,
+      "parent_id": 112,
+      "thread_id": 41
+    },
+    {
+      "event": "call",
+      "id": 114,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000015,
+      "event": "return",
+      "id": 115,
+      "parent_id": 114,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0002779,
+      "event": "return",
+      "id": 116,
+      "parent_id": 111,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0009369,
+      "event": "return",
+      "id": 117,
+      "parent_id": 62,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0009529,
+      "event": "return",
+      "id": 118,
+      "parent_id": 61,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+      "event": "call",
+      "id": 119,
+      "lineno": 388,
+      "method_id": "success",
+      "path": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+        "object_id": 1675679535,
+        "value": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor@63e0d72f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000085,
+      "event": "return",
+      "id": 120,
+      "parent_id": 119,
+      "return_value": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+        "object_id": 236963766,
+        "value": "org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryMethodInvocationCaptor@e1fc7b6"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+      "event": "call",
+      "id": 121,
+      "lineno": 75,
+      "method_id": "notifyListeners",
+      "parameters": [
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 2006055029,
+          "value": "public abstract org.springframework.data.domain.Page org.springframework.samples.petclinic.vet.VetRepository.findAll(org.springframework.data.domain.Pageable) throws org.springframework.dao.DataAccessException"
+        },
+        {
+          "class": "[Ljava.lang.Object;",
+          "kind": "req",
+          "name": "args",
+          "object_id": 36474522,
+          "value": "[Ljava.lang.Object;@22c8e9a"
+        },
+        {
+          "class": "org.springframework.data.repository.core.support.RepositoryMethodInvocationListener$RepositoryMethodInvocation",
+          "kind": "req",
+          "name": "result",
+          "object_id": 1595117556,
+          "value": "Invocation VetRepository.findAll(Pageable): 9 ms - SUCCESS"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryInvocationMulticaster.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+        "object_id": 1396148717,
+        "value": "org.springframework.data.repository.core.support.RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster@533789ed"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.RepositoryMethodInvocationListener$RepositoryMethodInvocation",
+      "event": "call",
+      "id": 122,
+      "lineno": 71,
+      "method_id": "getDuration",
+      "parameters": [
+        {
+          "class": "java.util.concurrent.TimeUnit",
+          "kind": "req",
+          "name": "timeUnit",
+          "object_id": 553441230,
+          "value": "NANOSECONDS"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/RepositoryMethodInvocationListener.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.RepositoryMethodInvocationListener$RepositoryMethodInvocation",
+        "object_id": 1595117556,
+        "value": "Invocation VetRepository.findAll(Pageable): 9 ms - SUCCESS"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000215,
+      "event": "return",
+      "id": 123,
+      "parent_id": 122,
+      "return_value": {
+        "class": "java.lang.Long",
+        "object_id": 166861836,
+        "value": "9905265"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.metrics.PropertiesAutoTimer",
+      "event": "call",
+      "id": 124,
+      "lineno": 44,
+      "method_id": "apply",
+      "parameters": [
+        {
+          "class": "io.micrometer.core.instrument.Timer$Builder",
+          "kind": "req",
+          "name": "builder",
+          "object_id": 969344429,
+          "value": "io.micrometer.core.instrument.Timer$Builder@39c705ad"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesAutoTimer.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.metrics.PropertiesAutoTimer",
+        "object_id": 1910896240,
+        "value": "org.springframework.boot.actuate.autoconfigure.metrics.PropertiesAutoTimer@71e5f670"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000126,
+      "event": "return",
+      "id": 125,
+      "parent_id": 124,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000739,
+      "event": "return",
+      "id": 126,
+      "parent_id": 121,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0010946,
+      "event": "return",
+      "id": 127,
+      "parent_id": 56,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0011036,
+      "event": "return",
+      "id": 128,
+      "parent_id": 55,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0011348,
+      "event": "return",
+      "id": 129,
+      "parent_id": 52,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0011484,
+      "event": "return",
+      "id": 130,
+      "parent_id": 51,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.repository.core.support.QueryExecutionResultHandler",
+      "event": "call",
+      "id": 131,
+      "lineno": 86,
+      "method_id": "postProcessInvocationResult",
+      "parameters": [
+        {
+          "class": "org.springframework.data.domain.PageImpl",
+          "kind": "req",
+          "name": "result",
+          "object_id": 2095685010,
+          "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+        },
+        {
+          "class": "org.springframework.core.MethodParameter",
+          "kind": "req",
+          "name": "method",
+          "object_id": 511350601,
+          "value": "method 'findAll' parameter -1"
+        }
+      ],
+      "path": "org/springframework/data/repository/core/support/QueryExecutionResultHandler.java",
+      "receiver": {
+        "class": "org.springframework.data.repository.core.support.QueryExecutionResultHandler",
+        "object_id": 764249774,
+        "value": "org.springframework.data.repository.core.support.QueryExecutionResultHandler@2d8d86ae"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000039,
+      "event": "return",
+      "id": 132,
+      "parent_id": 131,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0011718,
+      "event": "return",
+      "id": 133,
+      "parent_id": 50,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 134,
+      "lineno": 550,
+      "method_id": "shouldCommitOnGlobalRollbackOnly",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000042,
+      "event": "return",
+      "id": 135,
+      "parent_id": 134,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 1149747394,
+        "value": "true"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 136,
+      "lineno": 555,
+      "method_id": "doCommit",
+      "parameters": [
+        {
+          "class": "org.springframework.transaction.support.DefaultTransactionStatus",
+          "kind": "req",
+          "name": "status",
+          "object_id": 1226131284,
+          "value": "org.springframework.transaction.support.DefaultTransactionStatus@49154754"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000206,
+      "event": "return",
+      "id": 137,
+      "parent_id": 136,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 138,
+      "lineno": 620,
+      "method_id": "doCleanupAfterCompletion",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+          "kind": "req",
+          "name": "transaction",
+          "object_id": 2136981131,
+          "value": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject@7f5fbe8b"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.JpaTransactionManager",
+      "event": "call",
+      "id": 139,
+      "lineno": 183,
+      "method_id": "obtainEntityManagerFactory",
+      "path": "org/springframework/orm/jpa/JpaTransactionManager.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.JpaTransactionManager",
+        "object_id": 219876477,
+        "value": "org.springframework.orm.jpa.JpaTransactionManager@d1b0c7d"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000035,
+      "event": "return",
+      "id": 140,
+      "parent_id": 139,
+      "return_value": {
+        "class": "jdk.proxy3.$Proxy216",
+        "object_id": 200732469,
+        "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+      "event": "call",
+      "id": 141,
+      "lineno": 724,
+      "method_id": "invoke",
+      "parameters": [
+        {
+          "class": "jdk.proxy3.$Proxy216",
+          "kind": "req",
+          "name": "proxy",
+          "object_id": 200732469,
+          "value": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4949bcc8"
+        },
+        {
+          "class": "java.lang.reflect.Method",
+          "kind": "req",
+          "name": "method",
+          "object_id": 1724239742,
+          "value": "public native int java.lang.Object.hashCode()"
+        },
+        {
+          "class": "java.lang.Object[]",
+          "kind": "req",
+          "name": "args",
+          "object_id": 0
+        }
+      ],
+      "path": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+        "object_id": 352308107,
+        "value": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler@14ffcb8b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000051,
+      "event": "return",
+      "id": 142,
+      "parent_id": 141,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 171576749,
+        "value": "200732469"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.EntityManagerHolder",
+      "event": "call",
+      "id": 143,
+      "lineno": 82,
+      "method_id": "clear",
+      "path": "org/springframework/orm/jpa/EntityManagerHolder.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.EntityManagerHolder",
+        "object_id": 2064754037,
+        "value": "org.springframework.orm.jpa.EntityManagerHolder@7b11a575"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000026,
+      "event": "return",
+      "id": 144,
+      "parent_id": 143,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.DefaultJpaDialect",
+      "event": "call",
+      "id": 145,
+      "lineno": 112,
+      "method_id": "releaseJdbcConnection",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle",
+          "kind": "req",
+          "name": "conHandle",
+          "object_id": 355885013,
+          "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@15365fd5"
+        },
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "em",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<open>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/DefaultJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000024,
+      "event": "return",
+      "id": 146,
+      "parent_id": 145,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+      "event": "call",
+      "id": 147,
+      "lineno": 224,
+      "method_id": "cleanupTransaction",
+      "parameters": [
+        {
+          "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+          "kind": "req",
+          "name": "transactionData",
+          "object_id": 730420356,
+          "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData@2b895484"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+        "object_id": 1873713557,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect@6fae9995"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+      "event": "call",
+      "id": 148,
+      "lineno": 386,
+      "method_id": "resetSessionState",
+      "path": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+        "object_id": 730420356,
+        "value": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData@2b895484"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000049,
+      "event": "return",
+      "id": 149,
+      "parent_id": 148,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000124,
+      "event": "return",
+      "id": 150,
+      "parent_id": 147,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.EntityManagerFactoryUtils",
+      "event": "call",
+      "id": 151,
+      "lineno": 421,
+      "method_id": "closeEntityManager",
+      "parameters": [
+        {
+          "class": "org.hibernate.internal.SessionImpl",
+          "kind": "req",
+          "name": "em",
+          "object_id": 2033772351,
+          "value": "SessionImpl(2033772351<closed>)"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000118,
+      "event": "return",
+      "id": 152,
+      "parent_id": 151,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.000086,
+      "event": "return",
+      "id": 153,
+      "parent_id": 138,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0018063,
+      "event": "return",
+      "id": 154,
+      "parent_id": 7,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0018596,
+      "event": "return",
+      "id": 155,
+      "parent_id": 6,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0019505,
+      "event": "return",
+      "id": 156,
+      "parent_id": 5,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2095685010,
+        "value": "Page 2 of 2 containing org.springframework.samples.petclinic.vet.Vet instances"
+      },
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0019927,
+      "event": "return",
+      "id": 157,
+      "parent_id": 4,
+      "return_value": {
+        "class": "java.lang.String",
+        "object_id": 104894165,
+        "value": "vets/vetList"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor",
+      "event": "call",
+      "id": 158,
+      "lineno": 384,
+      "method_id": "postProcessProperties",
+      "parameters": [
+        {
+          "class": "org.springframework.beans.MutablePropertyValues",
+          "kind": "req",
+          "name": "pvs",
+          "object_id": 322003610,
+          "value": "PropertyValues: length=0"
+        },
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 976689813,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView"
+        }
+      ],
+      "path": "org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor",
+        "object_id": 1681808455,
+        "value": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor@643e5c47"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000074,
+      "event": "return",
+      "id": 159,
+      "parent_id": 158,
+      "return_value": {
+        "class": "org.springframework.beans.MutablePropertyValues",
+        "object_id": 322003610,
+        "value": "PropertyValues: length=0"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+      "event": "call",
+      "id": 160,
+      "lineno": 78,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+        "object_id": 477207777,
+        "value": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor@1c719ce1"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.context.properties.BindMethodAttribute",
+      "event": "call",
+      "id": 161,
+      "lineno": 49,
+      "method_id": "get",
+      "parameters": [
+        {
+          "class": "org.springframework.beans.factory.support.DefaultListableBeanFactory",
+          "kind": "req",
+          "name": "beanDefinitionRegistry",
+          "object_id": 1767778318,
+          "value": "org.springframework.beans.factory.support.DefaultListableBeanFactory@695e280e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,petClinicApplication,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,ownerController,petController,petTypeFormatter,visitController,cacheConfiguration,crashController,welcomeController,vetController,org.springframework.cache.annotation.ProxyCachingConfiguration,org.springframework.cache.config.internalCacheAdvisor,cacheOperationSource,cacheInterceptor,org.springframework.cache.jcache.config.ProxyJCacheConfiguration,org.springframework.cache.config.internalJCa..."
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/context/properties/BindMethodAttribute.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000041,
+      "event": "return",
+      "id": 162,
+      "parent_id": 161,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.context.properties.ConfigurationPropertiesBean",
+      "event": "call",
+      "id": 163,
+      "lineno": 197,
+      "method_id": "get",
+      "parameters": [
+        {
+          "class": "org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext",
+          "kind": "req",
+          "name": "applicationContext",
+          "object_id": 814200078,
+          "value": "org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3087b50e, started on Thu Jan 23 14:20:43 EST 2025"
+        },
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/context/properties/ConfigurationPropertiesBean.java",
+      "static": true,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000039,
+      "event": "return",
+      "id": 164,
+      "parent_id": 163,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000548,
+      "event": "return",
+      "id": 165,
+      "parent_id": 160,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.autoconfigure.jdbc.JdbcConnectionDetailsBeanPostProcessor",
+      "event": "call",
+      "id": 166,
+      "lineno": 52,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/autoconfigure/jdbc/JdbcConnectionDetailsBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.autoconfigure.jdbc.HikariJdbcConnectionDetailsBeanPostProcessor",
+        "object_id": 189994089,
+        "value": "org.springframework.boot.autoconfigure.jdbc.HikariJdbcConnectionDetailsBeanPostProcessor@b531469"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000032,
+      "event": "return",
+      "id": 167,
+      "parent_id": 166,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor",
+      "event": "call",
+      "id": 168,
+      "lineno": 57,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor",
+        "object_id": 1840295845,
+        "value": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor@6db0afa5"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000024,
+      "event": "return",
+      "id": 169,
+      "parent_id": 168,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor",
+      "event": "call",
+      "id": 170,
+      "lineno": 55,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor",
+        "object_id": 1001521783,
+        "value": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor@3bb20277"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000026,
+      "event": "return",
+      "id": 171,
+      "parent_id": 170,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.metrics.data.MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+      "event": "call",
+      "id": 172,
+      "lineno": 44,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/metrics/data/MetricsRepositoryMethodInvocationListenerBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.metrics.data.MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+        "object_id": 511169519,
+        "value": "org.springframework.boot.actuate.autoconfigure.metrics.data.MetricsRepositoryMethodInvocationListenerBeanPostProcessor@1e77d3ef"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000027,
+      "event": "return",
+      "id": 173,
+      "parent_id": 172,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+      "event": "call",
+      "id": 174,
+      "lineno": 99,
+      "method_id": "postProcessBeforeInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java",
+      "receiver": {
+        "class": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+        "object_id": 1021832235,
+        "value": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor@3ce7ec2b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000026,
+      "event": "return",
+      "id": 175,
+      "parent_id": 174,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor",
+      "event": "call",
+      "id": 176,
+      "lineno": 65,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor",
+        "object_id": 1840295845,
+        "value": "org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor@6db0afa5"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000026,
+      "event": "return",
+      "id": 177,
+      "parent_id": 176,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor",
+      "event": "call",
+      "id": 178,
+      "lineno": 63,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor",
+        "object_id": 1001521783,
+        "value": "org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor@3bb20277"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000023,
+      "event": "return",
+      "id": 179,
+      "parent_id": 178,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+      "event": "call",
+      "id": 180,
+      "lineno": 128,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+        "object_id": 138323748,
+        "value": "org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor@83ea724"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000027,
+      "event": "return",
+      "id": 181,
+      "parent_id": 180,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor",
+      "event": "call",
+      "id": 182,
+      "lineno": 78,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/metrics/MeterRegistryPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor",
+        "object_id": 1656040657,
+        "value": "org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor@62b52cd1"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000025,
+      "event": "return",
+      "id": 183,
+      "parent_id": 182,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.observation.ObservationRegistryPostProcessor",
+      "event": "call",
+      "id": 184,
+      "lineno": 68,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/observation/ObservationRegistryPostProcessor.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.observation.ObservationRegistryPostProcessor",
+        "object_id": 1848354665,
+        "value": "org.springframework.boot.actuate.autoconfigure.observation.ObservationRegistryPostProcessor@6e2ba769"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000024,
+      "event": "return",
+      "id": 185,
+      "parent_id": 184,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+      "event": "call",
+      "id": 186,
+      "lineno": 106,
+      "method_id": "postProcessAfterInitialization",
+      "parameters": [
+        {
+          "class": "org.thymeleaf.spring6.view.ThymeleafView",
+          "kind": "req",
+          "name": "bean",
+          "object_id": 307947324,
+          "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "beanName",
+          "object_id": 104894165,
+          "value": "vets/vetList"
+        }
+      ],
+      "path": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java",
+      "receiver": {
+        "class": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+        "object_id": 1021832235,
+        "value": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor@3ce7ec2b"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000024,
+      "event": "return",
+      "id": 187,
+      "parent_id": 186,
+      "return_value": {
+        "class": "org.thymeleaf.spring6.view.ThymeleafView",
+        "object_id": 307947324,
+        "value": "org.thymeleaf.spring6.view.ThymeleafView@125ae73c"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+      "event": "call",
+      "id": 188,
+      "lineno": 143,
+      "method_id": "multicastEvent",
+      "parameters": [
+        {
+          "class": "org.springframework.web.context.support.ServletRequestHandledEvent",
+          "kind": "req",
+          "name": "event",
+          "object_id": 304010973,
+          "value": "ServletRequestHandledEvent: url=[/vets.html]; client=[0:0:0:0:0:0:0:1]; method=[GET]; status=[200]; servlet=[dispatcherServlet]; session=[null]; user=[null]; time=[64ms]"
+        },
+        {
+          "class": "org.springframework.core.ResolvableType",
+          "kind": "req",
+          "name": "eventType",
+          "object_id": 2078333598,
+          "value": "org.springframework.web.context.support.ServletRequestHandledEvent"
+        }
+      ],
+      "path": "org/springframework/context/event/SimpleApplicationEventMulticaster.java",
+      "receiver": {
+        "class": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+        "object_id": 1541913596,
+        "value": "org.springframework.context.event.SimpleApplicationEventMulticaster@5be7bbfc"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.context.event.AbstractApplicationEventMulticaster",
+      "event": "call",
+      "id": 189,
+      "lineno": 192,
+      "method_id": "getApplicationListeners",
+      "parameters": [
+        {
+          "class": "org.springframework.web.context.support.ServletRequestHandledEvent",
+          "kind": "req",
+          "name": "event",
+          "object_id": 304010973,
+          "value": "ServletRequestHandledEvent: url=[/vets.html]; client=[0:0:0:0:0:0:0:1]; method=[GET]; status=[200]; servlet=[dispatcherServlet]; session=[null]; user=[null]; time=[64ms]"
+        },
+        {
+          "class": "org.springframework.core.ResolvableType",
+          "kind": "req",
+          "name": "eventType",
+          "object_id": 2078333598,
+          "value": "org.springframework.web.context.support.ServletRequestHandledEvent"
+        }
+      ],
+      "path": "org/springframework/context/event/AbstractApplicationEventMulticaster.java",
+      "receiver": {
+        "class": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+        "object_id": 1541913596,
+        "value": "org.springframework.context.event.SimpleApplicationEventMulticaster@5be7bbfc"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000462,
+      "event": "return",
+      "id": 190,
+      "parent_id": 189,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 1002887133,
+        "value": "[org.springframework.boot.devtools.restart.RestartApplicationListener@39493c2f]"
+      },
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+      "event": "call",
+      "id": 191,
+      "lineno": 168,
+      "method_id": "invokeListener",
+      "parameters": [
+        {
+          "class": "org.springframework.boot.devtools.restart.RestartApplicationListener",
+          "kind": "req",
+          "name": "listener",
+          "object_id": 961100847,
+          "value": "org.springframework.boot.devtools.restart.RestartApplicationListener@39493c2f"
+        },
+        {
+          "class": "org.springframework.web.context.support.ServletRequestHandledEvent",
+          "kind": "req",
+          "name": "event",
+          "object_id": 304010973,
+          "value": "ServletRequestHandledEvent: url=[/vets.html]; client=[0:0:0:0:0:0:0:1]; method=[GET]; status=[200]; servlet=[dispatcherServlet]; session=[null]; user=[null]; time=[64ms]"
+        }
+      ],
+      "path": "org/springframework/context/event/SimpleApplicationEventMulticaster.java",
+      "receiver": {
+        "class": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+        "object_id": 1541913596,
+        "value": "org.springframework.context.event.SimpleApplicationEventMulticaster@5be7bbfc"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000062,
+      "event": "return",
+      "id": 192,
+      "parent_id": 191,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0001116,
+      "event": "return",
+      "id": 193,
+      "parent_id": 188,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0066484,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Content-Language": "en-US",
+          "Date": "Thu, 23 Jan 2025 19:25:05 GMT",
+          "Content-Type": "text/html;charset=UTF-8"
+        },
+        "status": 200
+      },
+      "id": 194,
+      "parent_id": 3,
+      "thread_id": 41
+    },
+    {
+      "defined_class": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate",
+      "event": "call",
+      "id": 195,
+      "lineno": 48,
+      "method_id": "map",
+      "parameters": [
+        {
+          "class": "org.springframework.http.server.observation.ServerRequestObservationContext",
+          "kind": "req",
+          "name": "context",
+          "object_id": 1582124031,
+          "value": "name='http.server.requests', contextualName='http get /vets.html', error='null', lowCardinalityKeyValues=[exception='none', method='GET', outcome='SUCCESS', status='200', uri='/vets.html'], highCardinalityKeyValues=[http.url='/vets.html'], map=[class io.micrometer.core.instrument.LongTaskTimer$Sample='SampleImpl{duration(seconds)=0.06934882, duration(nanos)=6.934882E7, startTimeNanos=4916826519627}', class io.micrometer.core.instrument.Timer$Sample='io.micrometer.core.instrument.Timer$Sample@6181f883'], parentObservation=null"
+        }
+      ],
+      "path": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java",
+      "receiver": {
+        "class": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate",
+        "object_id": 2110778463,
+        "value": "org.springframework.boot.actuate.autoconfigure.observation.PropertiesObservationFilterPredicate@7dcfec5f"
+      },
+      "static": false,
+      "thread_id": 41
+    },
+    {
+      "elapsed": 0.0000956,
+      "event": "return",
+      "id": 196,
+      "parent_id": 195,
+      "return_value": {
+        "class": "org.springframework.http.server.observation.ServerRequestObservationContext",
+        "object_id": 1582124031,
+        "value": "name='http.server.requests', contextualName='http get /vets.html', error='null', lowCardinalityKeyValues=[exception='none', method='GET', outcome='SUCCESS', status='200', uri='/vets.html'], highCardinalityKeyValues=[http.url='/vets.html'], map=[class io.micrometer.core.instrument.LongTaskTimer$Sample='SampleImpl{duration(seconds)=-1.0E-9, duration(nanos)=-1.0, startTimeNanos=4916826519627}', class io.micrometer.core.instrument.Timer$Sample='io.micrometer.core.instrument.Timer$Sample@6181f883'], parentObservation=null"
+      },
+      "thread_id": 41
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /vets.html (200) - 14:25:05.621",
+    "app": "spring-petclinic",
+    "language": {
+      "name": "java",
+      "version": "17.0.8+9-LTS-211",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {},
+    "git": {
+      "repository": "git@github.com:getappmap/dw-petclinic-demo.git",
+      "branch": "main",
+      "commit": "bd612b707cf6b152b67e29269783ab5a667d32be"
+    }
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "cleanupTransaction",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:224"
+                            },
+                            {
+                              "name": "beginTransaction",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:151"
+                            },
+                            {
+                              "name": "getJdbcConnection",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:233"
+                            },
+                            {
+                              "name": "prepareFlushMode",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:203"
+                            },
+                            {
+                              "name": "getSession",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:345"
+                            }
+                          ],
+                          "name": "HibernateJpaDialect",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessEntityManager",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/AbstractJpaVendorAdapter.java:165"
+                            }
+                          ],
+                          "name": "AbstractJpaVendorAdapter",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "resetSessionState",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/vendor/HibernateJpaDialect.java:386"
+                            }
+                          ],
+                          "name": "HibernateJpaDialect$SessionTransactionData",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "vendor",
+                      "type": "package"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "doGetTransaction",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:367"
+                        },
+                        {
+                          "name": "doBegin",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:396"
+                        },
+                        {
+                          "name": "doCleanupAfterCompletion",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:620"
+                        },
+                        {
+                          "name": "obtainEntityManagerFactory",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:183"
+                        },
+                        {
+                          "name": "createEntityManagerForTransaction",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:480"
+                        },
+                        {
+                          "name": "doCommit",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:555"
+                        },
+                        {
+                          "name": "shouldCommitOnGlobalRollbackOnly",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:550"
+                        },
+                        {
+                          "name": "isExistingTransaction",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:391"
+                        }
+                      ],
+                      "name": "JpaTransactionManager",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "releaseJdbcConnection",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/DefaultJpaDialect.java:112"
+                        }
+                      ],
+                      "name": "DefaultJpaDialect",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessProperties",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java:384"
+                            }
+                          ],
+                          "name": "PersistenceAnnotationBeanPostProcessor",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "support",
+                      "type": "package"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "createNativeEntityManager",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/EntityManagerFactoryInfo.java:-1"
+                        }
+                      ],
+                      "name": "EntityManagerFactoryInfo",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "doGetTransactionalEntityManager",
+                          "type": "function",
+                          "static": true,
+                          "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:200"
+                        },
+                        {
+                          "name": "applyTransactionTimeout",
+                          "type": "function",
+                          "static": true,
+                          "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:339"
+                        },
+                        {
+                          "name": "closeEntityManager",
+                          "type": "function",
+                          "static": true,
+                          "location": "org/springframework/orm/jpa/EntityManagerFactoryUtils.java:421"
+                        }
+                      ],
+                      "name": "EntityManagerFactoryUtils",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "clear",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/EntityManagerHolder.java:82"
+                        }
+                      ],
+                      "name": "EntityManagerHolder",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "invokeProxyMethod",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:496"
+                        },
+                        {
+                          "name": "createNativeEntityManager",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:592"
+                        },
+                        {
+                          "name": "postProcessEntityManager",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:610"
+                        }
+                      ],
+                      "name": "AbstractEntityManagerFactoryBean",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "invoke",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/SharedEntityManagerCreator.java:224"
+                        }
+                      ],
+                      "name": "SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "setEntityManagerHolder",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/JpaTransactionManager.java:679"
+                        }
+                      ],
+                      "name": "JpaTransactionManager$JpaTransactionObject",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "invoke",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java:724"
+                        }
+                      ],
+                      "name": "AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "jpa",
+                  "type": "package"
+                }
+              ],
+              "name": "orm",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "success",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:388"
+                                },
+                                {
+                                  "name": "captureInvocationOn",
+                                  "type": "function",
+                                  "static": true,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:379"
+                                }
+                              ],
+                              "name": "RepositoryMethodInvoker$RepositoryMethodInvocationCaptor",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "notifyListeners",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryInvocationMulticaster.java:75"
+                                }
+                              ],
+                              "name": "RepositoryInvocationMulticaster$DefaultRepositoryInvocationMulticaster",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryFactorySupport.java:748"
+                                }
+                              ],
+                              "name": "RepositoryFactorySupport$ImplementationMethodExecutionInterceptor",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:158"
+                                }
+                              ],
+                              "name": "RepositoryMethodInvoker",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "shouldAdaptReactiveToSuspended",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryMethodInvoker.java:355"
+                                }
+                              ],
+                              "name": "RepositoryMethodInvoker$RepositoryFragmentMethodInvoker$CoroutineAdapterInformation",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "postProcessInvocationResult",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/QueryExecutionResultHandler.java:86"
+                                }
+                              ],
+                              "name": "QueryExecutionResultHandler",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "getMethod",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:308"
+                                },
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:276"
+                                }
+                              ],
+                              "name": "RepositoryComposition",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryComposition.java:499"
+                                }
+                              ],
+                              "name": "RepositoryComposition$RepositoryFragments",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "getDuration",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/RepositoryMethodInvocationListener.java:71"
+                                }
+                              ],
+                              "name": "RepositoryMethodInvocationListener$RepositoryMethodInvocation",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/repository/core/support/QueryExecutorMethodInterceptor.java:142"
+                                }
+                              ],
+                              "name": "QueryExecutorMethodInterceptor",
+                              "type": "class"
+                            }
+                          ],
+                          "name": "support",
+                          "type": "package"
+                        }
+                      ],
+                      "name": "core",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "repository",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "currentInvocation",
+                                  "type": "function",
+                                  "static": true,
+                                  "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:121"
+                                },
+                                {
+                                  "name": "invoke",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:133"
+                                }
+                              ],
+                              "name": "CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "of",
+                                  "type": "function",
+                                  "static": true,
+                                  "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:72"
+                                },
+                                {
+                                  "name": "forEach",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:90"
+                                },
+                                {
+                                  "name": "withFetchGraphs",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/DefaultQueryHints.java:80"
+                                }
+                              ],
+                              "name": "DefaultQueryHints",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "findAll",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:427"
+                                },
+                                {
+                                  "name": "findAll",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:448"
+                                },
+                                {
+                                  "name": "getQuery",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:714"
+                                },
+                                {
+                                  "name": "readPage",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:697"
+                                },
+                                {
+                                  "name": "getQuery",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/SimpleJpaRepository.java:749"
+                                }
+                              ],
+                              "name": "SimpleJpaRepository",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "forEach",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/MutableQueryHints.java:53"
+                                }
+                              ],
+                              "name": "MutableQueryHints",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "releaseTarget",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/data/jpa/repository/support/CrudMethodMetadataPostProcessor.java:301"
+                                }
+                              ],
+                              "name": "CrudMethodMetadataPostProcessor$ThreadBoundTargetSource",
+                              "type": "class"
+                            }
+                          ],
+                          "name": "support",
+                          "type": "package"
+                        }
+                      ],
+                      "name": "repository",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "jpa",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessAfterInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:106"
+                            },
+                            {
+                              "name": "postProcessBeforeInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:99"
+                            }
+                          ],
+                          "name": "ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "config",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "web",
+                  "type": "package"
+                }
+              ],
+              "name": "data",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessBeforeInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:55"
+                            },
+                            {
+                              "name": "postProcessAfterInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:63"
+                            }
+                          ],
+                          "name": "ErrorPageRegistrarBeanPostProcessor",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessAfterInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:65"
+                            },
+                            {
+                              "name": "postProcessBeforeInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:57"
+                            }
+                          ],
+                          "name": "WebServerFactoryCustomizerBeanPostProcessor",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "server",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "web",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "get",
+                              "type": "function",
+                              "static": true,
+                              "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:197"
+                            }
+                          ],
+                          "name": "ConfigurationPropertiesBean",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "get",
+                              "type": "function",
+                              "static": true,
+                              "location": "org/springframework/boot/context/properties/BindMethodAttribute.java:49"
+                            }
+                          ],
+                          "name": "BindMethodAttribute",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessBeforeInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:78"
+                            }
+                          ],
+                          "name": "ConfigurationPropertiesBindingPostProcessor",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "properties",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "context",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "postProcessAfterInitialization",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/metrics/MeterRegistryPostProcessor.java:78"
+                                }
+                              ],
+                              "name": "MeterRegistryPostProcessor",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "apply",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesAutoTimer.java:44"
+                                }
+                              ],
+                              "name": "PropertiesAutoTimer",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "postProcessBeforeInitialization",
+                                      "type": "function",
+                                      "static": false,
+                                      "location": "org/springframework/boot/actuate/autoconfigure/metrics/data/MetricsRepositoryMethodInvocationListenerBeanPostProcessor.java:44"
+                                    }
+                                  ],
+                                  "name": "MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+                                  "type": "class"
+                                }
+                              ],
+                              "name": "data",
+                              "type": "package"
+                            }
+                          ],
+                          "name": "metrics",
+                          "type": "package"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "test",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:53"
+                                },
+                                {
+                                  "name": "map",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:48"
+                                }
+                              ],
+                              "name": "PropertiesObservationFilterPredicate",
+                              "type": "class"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "postProcessAfterInitialization",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/observation/ObservationRegistryPostProcessor.java:68"
+                                }
+                              ],
+                              "name": "ObservationRegistryPostProcessor",
+                              "type": "class"
+                            }
+                          ],
+                          "name": "observation",
+                          "type": "package"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "postProcessAfterInitialization",
+                                  "type": "function",
+                                  "static": false,
+                                  "location": "org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.java:128"
+                                }
+                              ],
+                              "name": "HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+                              "type": "class"
+                            }
+                          ],
+                          "name": "health",
+                          "type": "package"
+                        }
+                      ],
+                      "name": "autoconfigure",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "actuate",
+                  "type": "package"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "postProcessBeforeInitialization",
+                              "type": "function",
+                              "static": false,
+                              "location": "org/springframework/boot/autoconfigure/jdbc/JdbcConnectionDetailsBeanPostProcessor.java:52"
+                            }
+                          ],
+                          "name": "JdbcConnectionDetailsBeanPostProcessor",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "jdbc",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "autoconfigure",
+                  "type": "package"
+                }
+              ],
+              "name": "boot",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "findAll",
+                              "type": "function",
+                              "static": false,
+                              "location": "src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:-1"
+                            }
+                          ],
+                          "name": "VetRepository",
+                          "type": "class"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "showVetList",
+                              "type": "function",
+                              "static": false,
+                              "location": "src/main/java/org/springframework/samples/petclinic/vet/VetController.java:48"
+                            }
+                          ],
+                          "name": "VetController",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "vet",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "petclinic",
+                  "type": "package"
+                }
+              ],
+              "name": "samples",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "invokeListener",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:168"
+                        },
+                        {
+                          "name": "multicastEvent",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:143"
+                        }
+                      ],
+                      "name": "SimpleApplicationEventMulticaster",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "getApplicationListeners",
+                          "type": "function",
+                          "static": false,
+                          "location": "org/springframework/context/event/AbstractApplicationEventMulticaster.java:192"
+                        }
+                      ],
+                      "name": "AbstractApplicationEventMulticaster",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "event",
+                  "type": "package"
+                }
+              ],
+              "name": "context",
+              "type": "package"
+            }
+          ],
+          "name": "springframework",
+          "type": "package"
+        }
+      ],
+      "name": "org",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /vets.html"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0 offset ? rows fetch first ? rows only"
+        },
+        {
+          "type": "query",
+          "name": "select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?"
+        }
+      ]
+    }
+  ]
+}

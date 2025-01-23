@@ -1,0 +1,1198 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "get",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:813"
+                              },
+                              {
+                                "name": "charAt",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:831"
+                              },
+                              {
+                                "name": "getType",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:839"
+                              },
+                              {
+                                "name": "canShortcutWithSource",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:853"
+                              },
+                              {
+                                "name": "canShortcutWithSource",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:864"
+                              },
+                              {
+                                "name": "getLength",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:822"
+                              },
+                              {
+                                "name": "chop",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:784"
+                              }
+                            ],
+                            "name": "ConfigurationPropertyName$Elements",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "parse",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:915"
+                              },
+                              {
+                                "name": "parse",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:919"
+                              },
+                              {
+                                "name": "isValidChar",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:1027"
+                              },
+                              {
+                                "name": "isAlphaNumeric",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:1031"
+                              }
+                            ],
+                            "name": "ConfigurationPropertyName$ElementsParser",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getConfigurationProperty",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:97"
+                              }
+                            ],
+                            "name": "SpringIterableConfigurationPropertySource",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "of",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationProperty.java:134"
+                              }
+                            ],
+                            "name": "ConfigurationProperty",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "of",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:601"
+                              },
+                              {
+                                "name": "getElement",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:141"
+                              },
+                              {
+                                "name": "adapt",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:658"
+                              },
+                              {
+                                "name": "chop",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:243"
+                              },
+                              {
+                                "name": "adapt",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:676"
+                              }
+                            ],
+                            "name": "ConfigurationPropertyName",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "findConfigurationProperty",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertySourcesPropertySource.java:66"
+                              }
+                            ],
+                            "name": "ConfigurationPropertySourcesPropertySource",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getProperty",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertySourcesPropertyResolver.java:61"
+                              },
+                              {
+                                "name": "getProperty",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertySourcesPropertyResolver.java:66"
+                              }
+                            ],
+                            "name": "ConfigurationPropertySourcesPropertyResolver",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "get",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SoftReferenceConfigurationPropertyCache.java:75"
+                              },
+                              {
+                                "name": "now",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SoftReferenceConfigurationPropertyCache.java:103"
+                              }
+                            ],
+                            "name": "SoftReferenceConfigurationPropertyCache",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getConfigurationProperty",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringConfigurationPropertySource.java:78"
+                              },
+                              {
+                                "name": "from",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/SpringConfigurationPropertySource.java:147"
+                              }
+                            ],
+                            "name": "SpringConfigurationPropertySource",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/DefaultPropertyMapper.java:61"
+                              },
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/DefaultPropertyMapper.java:48"
+                              }
+                            ],
+                            "name": "DefaultPropertyMapper",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "isUsingSources",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringConfigurationPropertySources.java:54"
+                              }
+                            ],
+                            "name": "SpringConfigurationPropertySources",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "getAttached",
+                                "type": "function",
+                                "static": true,
+                                "location": "org/springframework/boot/context/properties/source/ConfigurationPropertySources.java:104"
+                              }
+                            ],
+                            "name": "ConfigurationPropertySources",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "next",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringConfigurationPropertySources.java:99"
+                              }
+                            ],
+                            "name": "SpringConfigurationPropertySources$SourcesIterator",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "updateMappings",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:213"
+                              },
+                              {
+                                "name": "getMapped",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:279"
+                              }
+                            ],
+                            "name": "SpringIterableConfigurationPropertySource$Mappings",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "isFrom",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/DefaultPropertyMapper.java:95"
+                              }
+                            ],
+                            "name": "DefaultPropertyMapper$LastMapping",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/context/properties/source/SystemEnvironmentPropertyMapper.java:45"
+                              }
+                            ],
+                            "name": "SystemEnvironmentPropertyMapper",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "source",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:78"
+                          }
+                        ],
+                        "name": "ConfigurationPropertiesBindingPostProcessor",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "get",
+                            "type": "function",
+                            "static": true,
+                            "location": "org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:197"
+                          }
+                        ],
+                        "name": "ConfigurationPropertiesBean",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "get",
+                            "type": "function",
+                            "static": true,
+                            "location": "org/springframework/boot/context/properties/BindMethodAttribute.java:49"
+                          }
+                        ],
+                        "name": "BindMethodAttribute",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "properties",
+                    "type": "package"
+                  }
+                ],
+                "name": "context",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "name": "isIncludePath",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:179"
+                                  },
+                                  {
+                                    "name": "isIncludeMessage",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:150"
+                                  },
+                                  {
+                                    "name": "errorHtml",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:87"
+                                  },
+                                  {
+                                    "name": "isIncludeBindingErrors",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:164"
+                                  },
+                                  {
+                                    "name": "getErrorAttributeOptions",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:112"
+                                  },
+                                  {
+                                    "name": "isIncludeStackTrace",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.java:136"
+                                  }
+                                ],
+                                "name": "BasicErrorController",
+                                "type": "class"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "name": "resolveErrorView",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/DefaultErrorViewResolver.java:102"
+                                  }
+                                ],
+                                "name": "DefaultErrorViewResolver",
+                                "type": "class"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "name": "getErrorAttributes",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/AbstractErrorController.java:74"
+                                  },
+                                  {
+                                    "name": "getStatus",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/AbstractErrorController.java:124"
+                                  },
+                                  {
+                                    "name": "resolveErrorView",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/autoconfigure/web/servlet/error/AbstractErrorController.java:149"
+                                  }
+                                ],
+                                "name": "AbstractErrorController",
+                                "type": "class"
+                              }
+                            ],
+                            "name": "error",
+                            "type": "package"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "isTemplateAvailable",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/autoconfigure/web/servlet/JspTemplateAvailabilityProvider.java:40"
+                              }
+                            ],
+                            "name": "JspTemplateAvailabilityProvider",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "servlet",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "values",
+                            "type": "function",
+                            "static": true,
+                            "location": "org/springframework/boot/autoconfigure/web/ErrorProperties.java:142"
+                          }
+                        ],
+                        "name": "ErrorProperties$IncludeAttribute",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "web",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "getProvider",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/template/TemplateAvailabilityProviders.java:126"
+                          },
+                          {
+                            "name": "getProvider",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/template/TemplateAvailabilityProviders.java:111"
+                          }
+                        ],
+                        "name": "TemplateAvailabilityProviders",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "isTemplateAvailable",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/template/PathBasedTemplateAvailabilityProvider.java:54"
+                          }
+                        ],
+                        "name": "PathBasedTemplateAvailabilityProvider",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "template",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "isTemplateAvailable",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/thymeleaf/ThymeleafTemplateAvailabilityProvider.java:37"
+                          }
+                        ],
+                        "name": "ThymeleafTemplateAvailabilityProvider",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "thymeleaf",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "isTemplateAvailable",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/mustache/MustacheTemplateAvailabilityProvider.java:37"
+                          }
+                        ],
+                        "name": "MustacheTemplateAvailabilityProvider",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "mustache",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/autoconfigure/jdbc/JdbcConnectionDetailsBeanPostProcessor.java:52"
+                          }
+                        ],
+                        "name": "JdbcConnectionDetailsBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "jdbc",
+                    "type": "package"
+                  }
+                ],
+                "name": "autoconfigure",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:63"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:55"
+                          }
+                        ],
+                        "name": "ErrorPageRegistrarBeanPostProcessor",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:65"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:57"
+                          }
+                        ],
+                        "name": "WebServerFactoryCustomizerBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "server",
+                    "type": "package"
+                  }
+                ],
+                "name": "web",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "name": "postProcessBeforeInitialization",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/actuate/autoconfigure/metrics/data/MetricsRepositoryMethodInvocationListenerBeanPostProcessor.java:44"
+                                  }
+                                ],
+                                "name": "MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+                                "type": "class"
+                              }
+                            ],
+                            "name": "data",
+                            "type": "package"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "name": "step",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/simple/SimplePropertiesConfigAdapter.java:50"
+                                      },
+                                      {
+                                        "name": "mode",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/simple/SimplePropertiesConfigAdapter.java:55"
+                                      }
+                                    ],
+                                    "name": "SimplePropertiesConfigAdapter",
+                                    "type": "class"
+                                  }
+                                ],
+                                "name": "simple",
+                                "type": "package"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "name": "get",
+                                        "type": "function",
+                                        "static": false,
+                                        "location": "org/springframework/boot/actuate/autoconfigure/metrics/export/properties/PropertiesConfigAdapter.java:53"
+                                      }
+                                    ],
+                                    "name": "PropertiesConfigAdapter",
+                                    "type": "class"
+                                  }
+                                ],
+                                "name": "properties",
+                                "type": "package"
+                              }
+                            ],
+                            "name": "export",
+                            "type": "package"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "accept",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:74"
+                              },
+                              {
+                                "name": "configure",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:85"
+                              },
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/PropertiesMeterFilter.java:80"
+                              }
+                            ],
+                            "name": "PropertiesMeterFilter",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/metrics/MeterRegistryPostProcessor.java:78"
+                              }
+                            ],
+                            "name": "MeterRegistryPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "metrics",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "test",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:53"
+                              },
+                              {
+                                "name": "map",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/PropertiesObservationFilterPredicate.java:48"
+                              }
+                            ],
+                            "name": "PropertiesObservationFilterPredicate",
+                            "type": "class"
+                          },
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/observation/ObservationRegistryPostProcessor.java:68"
+                              }
+                            ],
+                            "name": "ObservationRegistryPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "observation",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "postProcessAfterInitialization",
+                                "type": "function",
+                                "static": false,
+                                "location": "org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.java:128"
+                              }
+                            ],
+                            "name": "HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "health",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "name": "getProperty",
+                                    "type": "function",
+                                    "static": false,
+                                    "location": "org/springframework/boot/actuate/autoconfigure/web/server/ManagementContextAutoConfiguration.java:92"
+                                  }
+                                ],
+                                "name": "ManagementContextAutoConfiguration$SameManagementContextConfiguration$1",
+                                "type": "class"
+                              }
+                            ],
+                            "name": "server",
+                            "type": "package"
+                          }
+                        ],
+                        "name": "web",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "autoconfigure",
+                    "type": "package"
+                  }
+                ],
+                "name": "actuate",
+                "type": "package"
+              }
+            ],
+            "name": "boot",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "triggerException",
+                            "type": "function",
+                            "static": false,
+                            "location": "src/main/java/org/springframework/samples/petclinic/system/CrashController.java:33"
+                          }
+                        ],
+                        "name": "CrashController",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "system",
+                    "type": "package"
+                  }
+                ],
+                "name": "petclinic",
+                "type": "package"
+              }
+            ],
+            "name": "samples",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessAfterInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:106"
+                          },
+                          {
+                            "name": "postProcessBeforeInitialization",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.java:99"
+                          }
+                        ],
+                        "name": "ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "config",
+                    "type": "package"
+                  }
+                ],
+                "name": "web",
+                "type": "package"
+              }
+            ],
+            "name": "data",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "postProcessProperties",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.java:384"
+                          }
+                        ],
+                        "name": "PersistenceAnnotationBeanPostProcessor",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "support",
+                    "type": "package"
+                  }
+                ],
+                "name": "jpa",
+                "type": "package"
+              }
+            ],
+            "name": "orm",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "findTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:186"
+                      },
+                      {
+                        "name": "findTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:180"
+                      },
+                      {
+                        "name": "determineTransactionAttribute",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:201"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:169"
+                      },
+                      {
+                        "name": "allowPublicMethodsOnly",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java:219"
+                      }
+                    ],
+                    "name": "AnnotationTransactionAttributeSource",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "parseTransactionAnnotation",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/JtaTransactionAnnotationParser.java:52"
+                      }
+                    ],
+                    "name": "JtaTransactionAnnotationParser",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "parseTransactionAnnotation",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java:56"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java:50"
+                      }
+                    ],
+                    "name": "SpringTransactionAnnotationParser",
+                    "type": "class"
+                  }
+                ],
+                "name": "annotation",
+                "type": "package"
+              }
+            ],
+            "name": "transaction",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:57"
+                      },
+                      {
+                        "name": "parseCacheAnnotations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:63"
+                      },
+                      {
+                        "name": "parseCacheAnnotations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/SpringCacheAnnotationParser.java:70"
+                      }
+                    ],
+                    "name": "SpringCacheAnnotationParser",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "findCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:125"
+                      },
+                      {
+                        "name": "findCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:131"
+                      },
+                      {
+                        "name": "isCandidateClass",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:114"
+                      },
+                      {
+                        "name": "allowPublicMethodsOnly",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:169"
+                      },
+                      {
+                        "name": "determineCacheOperations",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/cache/annotation/AnnotationCacheOperationSource.java:145"
+                      }
+                    ],
+                    "name": "AnnotationCacheOperationSource",
+                    "type": "class"
+                  }
+                ],
+                "name": "annotation",
+                "type": "package"
+              }
+            ],
+            "name": "cache",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "getApplicationListeners",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/AbstractApplicationEventMulticaster.java:192"
+                      }
+                    ],
+                    "name": "AbstractApplicationEventMulticaster",
+                    "type": "class"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "invokeListener",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:168"
+                      },
+                      {
+                        "name": "multicastEvent",
+                        "type": "function",
+                        "static": false,
+                        "location": "org/springframework/context/event/SimpleApplicationEventMulticaster.java:143"
+                      }
+                    ],
+                    "name": "SimpleApplicationEventMulticaster",
+                    "type": "class"
+                  }
+                ],
+                "name": "event",
+                "type": "package"
+              }
+            ],
+            "name": "context",
+            "type": "package"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "isAspect",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java:89"
+                          }
+                        ],
+                        "name": "AbstractAspectJAdvisorFactory",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "isInfrastructureClass",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java:110"
+                          },
+                          {
+                            "name": "findCandidateAdvisors",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java:92"
+                          }
+                        ],
+                        "name": "AnnotationAwareAspectJAutoProxyCreator",
+                        "type": "class"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "buildAspectJAdvisors",
+                            "type": "function",
+                            "static": false,
+                            "location": "org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java:90"
+                          }
+                        ],
+                        "name": "BeanFactoryAspectJAdvisorsBuilder",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "annotation",
+                    "type": "package"
+                  }
+                ],
+                "name": "aspectj",
+                "type": "package"
+              }
+            ],
+            "name": "aop",
+            "type": "package"
+          }
+        ],
+        "name": "springframework",
+        "type": "package"
+      }
+    ],
+    "name": "org",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /oups"
+      },
+      {
+        "type": "route",
+        "name": "GET /error"
+      }
+    ]
+  }
+]

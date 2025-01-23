@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "POST /owners/new",
+    "callee": "org/springframework"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "insert into owners (address,city,first_name,last_name,telephone,id) values (?,?,?,?,?,default)"
+  }
+]

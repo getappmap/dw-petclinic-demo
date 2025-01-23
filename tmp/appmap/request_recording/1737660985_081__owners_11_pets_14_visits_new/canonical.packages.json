@@ -1,0 +1,21 @@
+[
+  "org/springframework/aop/aspectj/annotation",
+  "org/springframework/boot/actuate/autoconfigure/health",
+  "org/springframework/boot/actuate/autoconfigure/metrics",
+  "org/springframework/boot/actuate/autoconfigure/metrics/data",
+  "org/springframework/boot/actuate/autoconfigure/observation",
+  "org/springframework/boot/autoconfigure/jdbc",
+  "org/springframework/boot/autoconfigure/validation",
+  "org/springframework/boot/context/properties",
+  "org/springframework/boot/web/server",
+  "org/springframework/cache/annotation",
+  "org/springframework/context/event",
+  "org/springframework/data/jpa/repository/support",
+  "org/springframework/data/repository/core/support",
+  "org/springframework/data/web/config",
+  "org/springframework/orm/jpa",
+  "org/springframework/orm/jpa/support",
+  "org/springframework/orm/jpa/vendor",
+  "org/springframework/samples/petclinic/owner",
+  "org/springframework/transaction/annotation"
+]

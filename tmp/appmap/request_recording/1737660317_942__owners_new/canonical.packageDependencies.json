@@ -1,0 +1,62 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/aop/aspectj/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/health"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/metrics/data"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/actuate/autoconfigure/observation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/jdbc"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/autoconfigure/validation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/context/properties"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/boot/web/server"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/cache/annotation"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/context/event"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/data/web/config"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/orm/jpa/support"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/samples/petclinic/owner"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "org/springframework/transaction/annotation"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "caller": "POST /owners/{ownerId}/pets/new",
+    "callee": "org/springframework"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "insert into pets (birth_date,name,type_id,id) values (?,?,?,default)"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "select pt1_0.id,pt1_0.name from types pt1_0 where pt1_0.id=?"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "update pets set owner_id=? where id=?"
+  }
+]

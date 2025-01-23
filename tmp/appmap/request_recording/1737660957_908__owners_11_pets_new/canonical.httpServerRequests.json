@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /owners/{ownerId}/pets/new",
+    "parameters": "()",
+    "status": 200
+  }
+]

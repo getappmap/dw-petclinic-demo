@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /owners",
+    "callee": "org/springframework"
+  },
+  {
+    "caller": "org/springframework",
+    "callee": "select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\\' fetch first ? rows only"
+  }
+]

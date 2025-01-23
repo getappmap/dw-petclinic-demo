@@ -1,0 +1,7 @@
+[
+  {
+    "route": "POST /owners/{ownerId}/pets/{petId}/visits/new",
+    "parameters": "(date,description,petId)",
+    "status": 302
+  }
+]
