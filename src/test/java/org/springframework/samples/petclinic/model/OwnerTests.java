@@ -38,13 +38,13 @@ class OwnerTests {
         leo.setType(birdType);
         owner.addPet(leo);
 
-        // Verify that the updated details are NOT reflected in the owner's pet list
+        // Verify that the updated details are reflected in the owner's pet list
         Pet updatedPet = owner.getPet("Leonardo");
-        assertThat(updatedPet).isNull(); // This should fail if the issue is fixed
+        assertThat(updatedPet).isNotNull();
+        assertThat(updatedPet.getType().getName()).isEqualTo("bird");
 
-        // Verify that the original pet details are still present
+        // Verify that the original pet details are no longer present
         Pet originalPet = owner.getPet("Leo");
-        assertThat(originalPet).isNotNull();
-        assertThat(originalPet.getType().getName()).isEqualTo("cat");
+        assertThat(originalPet).isNull();
     }
 }

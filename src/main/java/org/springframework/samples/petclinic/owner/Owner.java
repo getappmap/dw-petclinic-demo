@@ -95,9 +95,17 @@ public class Owner extends Person {
 
 	public void addPet(Pet pet) {
 		if (pet.isNew()) {
-			getPets().add(pet);
+		    getPets().add(pet);
+		} else {
+		    for (int i = 0; i < getPets().size(); i++) {
+		        if (getPets().get(i).getId().equals(pet.getId())) {
+		            getPets().set(i, pet);
+		            return;
+		        }
+		    }
+		    getPets().add(pet);
 		}
-	}
+    }
 
 	/**
 	 * Return the Pet with the given name, or null if none found for this Owner.
