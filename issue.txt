@@ -1,0 +1,5 @@
+Example: go to first owner with pet Leo of type cat.
+Click on edit pet and change the type to bird or change the name.
+Click on Update pet.
+The pet is not updated, even though a success message is shown.
+When I analysed the code, I found that the updated pet is given to the addPet method of the owner which does not change the pet in the owner list, as the pet is not new.
